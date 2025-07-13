@@ -1,6 +1,6 @@
 Repo with my solutions for [LunaPrompts](https://lunaprompts.com/)
 
-[Video demonstration of the platform](https://www.youtube.com/watch?v=8dK8JlX_8n0)
+[Video demonstration of the platform by StoatScript](https://www.youtube.com/watch?v=8dK8JlX_8n0)
 
 # SOLUTIONS
 Don't directly copy them, that's the whole point of the platform ;)
