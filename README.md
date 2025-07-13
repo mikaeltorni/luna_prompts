@@ -1,4 +1,4 @@
-Repo with my solutions for [LunaPrompts](https://lunaprompts.com/)
+Repo with my solutions for [Luna Prompts](https://lunaprompts.com/)
 
 [Video demonstration of the platform by StoatScript](https://www.youtube.com/watch?v=8dK8JlX_8n0)
 
