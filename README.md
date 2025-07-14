@@ -5,6 +5,6 @@ Repo with my solutions for [Luna Prompts](https://lunaprompts.com/)
 # SOLUTIONS
 Don't directly copy them, that's the whole point of the platform ;)
 
-[9 - [Hyperparameter Tuning] Detecting Hate Speech in Social Media Posts](https://lunaprompts.com/challenges/9): [9_Hyperparameter_Tuning-Detecting_Hate_Speech_in_Social_Media_Posts.md](https://github.com/mikaeltorni/luna_prompts/blob/master/9_Hyperparameter_Tuning-Detecting_Hate_Speech_in_Social_Media_Posts.md) - 100% pass rate
+[9 - [Hyperparameter Tuning] Detecting Hate Speech in Social Media Posts](https://lunaprompts.com/challenges/9): [9_Hyperparameter_Tuning-Detecting_Hate_Speech_in_Social_Media_Posts.md](https://github.com/mikaeltorni/luna_prompts/blob/master/9_Hyperparameter_Tuning-Detecting_Hate_Speech_in_Social_Media_Posts-GPT-4o.md) - 100% pass rate - GPT-4o
 
-[13 - [Single Shot] Rewrite Rental Messages for Better Tone](https://lunaprompts.com/challenges/13): [13_Single_Shot-Rewrite_Rental_Messages_for_Better_Tone.md](https://github.com/mikaeltorni/luna_prompts/blob/master/13_Single_Shot-Rewrite_Rental_Messages_for_Better_Tone.md) - 100% pass rate
+[13 - [Single Shot] Rewrite Rental Messages for Better Tone](https://lunaprompts.com/challenges/13): [13_Single_Shot-Rewrite_Rental_Messages_for_Better_Tone.md](https://github.com/mikaeltorni/luna_prompts/blob/master/13_Single_Shot-Rewrite_Rental_Messages_for_Better_Tone-GPT-4o.md) - 100% pass rate - GPT-4o
