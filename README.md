@@ -10,19 +10,19 @@ Don't copy them directly, that's the whole point of the platform ;)
 
 [2 - [COT Prompting] Infer Product Ratings from Customer Reviews](https://lunaprompts.com/challenges/2)
 
-0% pass rate, due to a bug on the site regarding the evaluator. Seems to be working correctly though [solution (GPT-4o)](https://github.com/mikaeltorni/luna_prompts/blob/master/2_COT_Prompting-Infer_Product_Ratings_from_Customer_Reviews-GPT-4o.md)
+0% pass rate, due to a bug on the site regarding the evaluator. Seems to be working correctly though [solution (GPT-4o)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/2_COT_Prompting-Infer_Product_Ratings_from_Customer_Reviews-GPT-4o.md)
 
 
 [3 - [Predict Mental Health Status from Text] Predict Mental Health Status from Text](https://lunaprompts.com/challenges/3)
 
-55% pass rate, [solution (GPT-4o)](https://github.com/mikaeltorni/luna_prompts/blob/master/3_Predict_Mental_Health_Status_from_Text-GPT-4o.md)
+55% pass rate, [solution (GPT-4o)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/3_Predict_Mental_Health_Status_from_Text-GPT-4o.md)
 
 
 [9 - [Hyperparameter Tuning] Detecting Hate Speech in Social Media Posts](https://lunaprompts.com/challenges/9)
 
-100% pass rate, [solution (GPT-4o)](https://github.com/mikaeltorni/luna_prompts/blob/master/9_Hyperparameter_Tuning-Detecting_Hate_Speech_in_Social_Media_Posts-GPT-4o.md)
+100% pass rate, [solution (GPT-4o)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/9_Hyperparameter_Tuning-Detecting_Hate_Speech_in_Social_Media_Posts-GPT-4o.md)
 
 
 [13 - [Single Shot] Rewrite Rental Messages for Better Tone](https://lunaprompts.com/challenges/13)
 
-100% pass rate, [solution (GPT-4o)](https://github.com/mikaeltorni/luna_prompts/blob/master/13_Single_Shot-Rewrite_Rental_Messages_for_Better_Tone-GPT-4o.md)
+100% pass rate, [solution (GPT-4o)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/13_Single_Shot-Rewrite_Rental_Messages_for_Better_Tone-GPT-4o.md)
