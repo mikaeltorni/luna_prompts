@@ -20,9 +20,9 @@ Don't copy them directly, that's the whole point of the platform ;)
 
 [6 - [Tweet Tone Detector] Tweet Tone Detector](https://lunaprompts.com/challenges/6)
 
-50% pass rate, [solution (Llama 3.2 1B)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/6_Tweet_Tone_Detector-llama-3.2-1b.md)
-
 92.5% pass rate, [solution (GPT 4.1)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/6_Tweet_Tone_Detector-gpt-4.1.md)
+
+50% pass rate, [solution (Llama 3.2 1B)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/6_Tweet_Tone_Detector-llama-3.2-1b.md)
 
 
 [9 - [Hyperparameter Tuning] Detecting Hate Speech in Social Media Posts](https://lunaprompts.com/challenges/9)
