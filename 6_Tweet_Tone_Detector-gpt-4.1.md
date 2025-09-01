@@ -79,10 +79,6 @@ Output, should be in this case: "NA" without the quotes and nothing else.
     <input>{"text":"I love data and good coffee."}</input>
     <output>NA</output>
   </example>
-  <example>
-    <input>It's a sunny day!</input>
-    <output>NA</output>
-  </example>
 </examples>
 
 <content_for_analyzing>
