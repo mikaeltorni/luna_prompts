@@ -79,6 +79,73 @@ Output, should be in this case: "NA" without the quotes and nothing else.
     <input>{"text":"I love data and good coffee."}</input>
     <output>NA</output>
   </example>
+  <!-- Minimal praise should be Positive -->
+  <example>
+    <input>{"tweet":"not bad tbh."}</input>
+    <output>Positive</output>
+  </example>
+  <example>
+    <input>{"tweet":"pretty decent, honestly."}</input>
+    <output>Positive</output>
+  </example>
+
+  <!-- Facts/metrics (even if negative) should be Informative -->
+  <example>
+    <input>{"tweet":"Patch v2.3 dropped my FPS by ~20% on a 2060."}</input>
+    <output>Informative</output>
+  </example>
+  <example>
+    <input>{"tweet":"Service outage 13:00–15:00 UTC; error rate peaked at 12%."}</input>
+    <output>Informative</output>
+  </example>
+
+  <!-- Enthusiastic thanks vs plain Positive -->
+  <example>
+    <input>{"tweet":"HUGE thanks to the devs—hotfix in record time!!! 🙌🎉"}</input>
+    <output>Enthusiastic</output>
+  </example>
+  <example>
+    <input>{"tweet":"Thanks to the team for the quick patch."}</input>
+    <output>Positive</output>
+  </example>
+
+  <!-- Humorous snark without sarcasm markers -->
+  <example>
+    <input>{"tweet":"lol this UI is allergic to usability apparently"}</input>
+    <output>Humorous</output>
+  </example>
+  <example>
+    <input>{"tweet":"My code: works. Also my code: doesn’t. 😂"}</input>
+    <output>Humorous</output>
+  </example>
+  <example>
+    <input>{"tweet":"This is fine. Everything is fine. 🔥🐶"}</input>
+    <output>Humorous</output>
+  </example>
+
+  <!-- Sarcastic only when explicit markers appear -->
+  <example>
+    <input>{"tweet":"Amazing, another meeting that could’ve been an email 🙄"}</input>
+    <output>Sarcastic</output>
+  </example>
+  <example>
+    <input>{"tweet":"Yeah, this update is flawless /s"}</input>
+    <output>Sarcastic</output>
+  </example>
+  <example>
+    <input>{"tweet":"Great job breaking it again #sarcasm"}</input>
+    <output>Sarcastic</output>
+  </example>
+
+  <!-- Distinguish Negative from Informative/Angry -->
+  <example>
+    <input>{"tweet":"The latest patch made things worse and I’m disappointed."}</input>
+    <output>Negative</output>
+  </example>
+  <example>
+    <input>{"tweet":"Stop shipping broken builds. Enough."}</input>
+    <output>Angry</output>
+  </example>
 </examples>
 
 <content_for_analyzing>
