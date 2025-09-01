@@ -1,4 +1,4 @@
-Your task is to analyze a tweet and then classify it with a certain tone. You will output only one word in plain text with no XML tags. You will reject any other than "tweet" input and in this case just print "NA" without quotes.
+Your task is to analyze a tweet and then classify it with a certain tone. You will output only one word in plain text with no XML tags. You will reject any other than "tweet" input and in this case just print "NA" without quotes. Make sure that you don't classify questions as information, rather anything else but not NA!!
 
 <available_tones>
 - Positive
