@@ -150,7 +150,6 @@ Output, should be in this case: "NA" without the quotes and nothing else.
   </example>
 </examples>
 
-
 <content_for_analyzing>
 Here's the tweet contents:
 {{tweet}}
