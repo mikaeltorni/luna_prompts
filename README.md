@@ -13,12 +13,12 @@ Don't copy them directly, that's the whole point of the platform ;)
 0% pass rate, due to a bug on the site regarding the evaluator. Seems to be working correctly though [solution (GPT-4o)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/2_COT_Prompting-Infer_Product_Ratings_from_Customer_Reviews-GPT-4o.md)
 
 
-[3 - [Predict Mental Health Status from Text] Predict Mental Health Status from Text](https://lunaprompts.com/challenges/3)
+[3 - Predict Mental Health Status from Text](https://lunaprompts.com/challenges/3)
 
 55% pass rate, [solution (GPT-4o)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/3_Predict_Mental_Health_Status_from_Text-GPT-4o.md)
 
 
-[6 - [Tweet Tone Detector] Tweet Tone Detector](https://lunaprompts.com/challenges/6)
+[6 - Tweet Tone Detector](https://lunaprompts.com/challenges/6)
 
 100% pass rate, [solution (Kimi K2)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/6_Tweet_Tone_Detector/6_Tweet_Tone_Detector-kimi-k2.md)
 
