@@ -31,6 +31,10 @@ Don't copy them directly, that's the whole point of the platform ;)
 
 100% pass rate, [solution (GPT-4o)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/9_Hyperparameter_Tuning-Detecting_Hate_Speech_in_Social_Media_Posts-GPT-4o.md)
 
+[10 - Extracting Key Information from Resumes](https://lunaprompts.com/challenges/10)
+
+work in progress, the site is missing tests [solution (Llama 3.2 1B)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/10_Extracting_Key_Information_from_Resumes-llama-3.2-1b.md)
+
 
 [13 - [Single Shot] Rewrite Rental Messages for Better Tone](https://lunaprompts.com/challenges/13)
 
