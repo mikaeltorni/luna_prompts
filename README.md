@@ -39,3 +39,7 @@ work in progress, the site is missing tests [solution (Llama 3.2 1B)](https://gi
 [13 - [Single Shot] Rewrite Rental Messages for Better Tone](https://lunaprompts.com/challenges/13)
 
 100% pass rate, [solution (GPT-4o)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/13_Single_Shot-Rewrite_Rental_Messages_for_Better_Tone-GPT-4o.md)
+
+[14 - Airport Code Analyst for Agent Mira](https://lunaprompts.com/challenges/14)
+
+43.8% pass rate with most bugged evaluation, waiting for the fix before continuing solving [solution (Gemma 9b)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/14_Airport_Code_Analyst_for_Agent_Mira-gemma-9b.xml)

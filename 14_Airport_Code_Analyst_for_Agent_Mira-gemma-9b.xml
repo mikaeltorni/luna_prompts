@@ -1,0 +1,6 @@
+Extract the airport code from the cities/airports in the text. Make sure to ONLY print the three-letter-codes, separated by a single comma (and no line breaks), with ZERO preamble.
+If the input text is nonsense, just print "NA" and nothing else.
+
+<input>
+{{text}}
+</input>
