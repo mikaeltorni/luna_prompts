@@ -1,4 +1,4 @@
-Your task is to write a prompt that accurately extracts action items from meeting notes and structures them in a valid JSON format. 
+Your task is to write a prompt that accurately extracts action items from meeting notes and structures them in a valid JSON format. Be sure to follow the examples strictly to know when to print the error message.
 
 <expected_output_format_example>
 [
@@ -27,9 +27,62 @@ If the text isn't anything related to meetings, return:
 
 example:
 {
-  "meeting_notes": "This is not a meeting note."
+  "meeting_notes": "This is not a meeting note. It could be some random historical fact instead... which is not not related to the meetings and is NOT allowed!"
 }
 </error_handling>
+
+<examples>
+  <!-- VALID -->
+  <example>
+    <input>{"meeting_notes":"Standup 10:00 — Omar will prepare sprint demo slides by Friday 17:00. Zoe to update API docs. Diego to schedule a retrospective for next week."}</input>
+    <output>[{"task":"Prepare sprint demo slides","assignee":"Omar","due_date":"Friday 17:00"},{"task":"Update API docs","assignee":"Zoe","due_date":"N/A"},{"task":"Schedule retrospective","assignee":"Diego","due_date":"Next week"}]</output>
+  </example>
+
+  <example>
+    <input>{"meeting_notes":"Client kickoff: Lina to send the NDA today. Chen & Priya will review the SOW by 2025-09-05. Someone needs to set up the new Jira project."}</input>
+    <output>[{"task":"Send the NDA","assignee":"Lina","due_date":"Today"},{"task":"Review the SOW","assignee":"Chen & Priya","due_date":"2025-09-05"},{"task":"Set up the new Jira project","assignee":"N/A","due_date":"N/A"}]</output>
+  </example>
+
+  <example>
+    <input>{"meeting_notes":"Design sync — Mark confirmed the layout. Fatima will collect 8–10 user quotes before Monday. Alex to coordinate the first usability test (date TBD)."}</input>
+    <output>[{"task":"Collect 8–10 user quotes","assignee":"Fatima","due_date":"Before Monday"},{"task":"Coordinate the first usability test","assignee":"Alex","due_date":"N/A"}]</output>
+  </example>
+
+  <example>
+    <input>{"meeting_notes":"Ops check-in: Noah to create a runbook draft by EOW. Elena will open a ticket with AWS. Team to migrate logs to the new bucket on 12 Sep."}</input>
+    <output>[{"task":"Create a runbook draft","assignee":"Noah","due_date":"EOW"},{"task":"Open a ticket with AWS","assignee":"Elena","due_date":"N/A"},{"task":"Migrate logs to the new bucket","assignee":"Team","due_date":"12 Sep"}]</output>
+  </example>
+
+  <example>
+    <input>{"meeting_notes":"Product planning: Ravi to draft pricing proposal by next Thursday. Mia will analyze churn data this week. Attachments: roadmap v3."}</input>
+    <output>[{"task":"Draft pricing proposal","assignee":"Ravi","due_date":"Next Thursday"},{"task":"Analyze churn data","assignee":"Mia","due_date":"This week"}]</output>
+  </example>
+
+  <example>
+    <input>{"meeting_notes":"Support triage: @Ana to reply to ticket #1423 ASAP. Tom will escalate the outage RCA to management by tomorrow morning. Need a volunteer for weekend on-call."}</input>
+    <output>[{"task":"Reply to ticket #1423","assignee":"Ana","due_date":"ASAP"},{"task":"Escalate the outage RCA to management","assignee":"Tom","due_date":"Tomorrow morning"},{"task":"Provide weekend on-call coverage","assignee":"N/A","due_date":"N/A"}]</output>
+  </example>
+
+  <!-- INVALID -->
+  <example>
+    <input>{"meeting_notes":"The mitochondrion is the powerhouse of the cell."}</input>
+    <output>{"error":"Invalid Input"}</output>
+  </example>
+
+  <example>
+    <input>{"meeting_notes":"Weather in Helsinki will be sunny all week with light winds."}</input>
+    <output>{"error":"Invalid Input"}</output>
+  </example>
+</examples>
+
+<!-- INVALID -->
+
+<example><input>{"meeting_notes":"The mitochondrion is the powerhouse of the cell."}</input><output>{"error":"Invalid Input"}</output></example>
+
+<example><input>{"meeting_notes":"Weather in Helsinki will be sunny all week with light winds."}</input><output>{"error":"Invalid Input"}</output></example>
+
+In these cases, print the error message, nothing else!
+</examples>
 
 <restrictions>
 Do not produce any code, just give out the JSON format, nothing else.
@@ -38,3 +91,5 @@ Do not produce any code, just give out the JSON format, nothing else.
 <meeting_notes>
 {{meeting_notes}}
 </meeting_notes>
+
+Did you check the examples? Only print the error message if the request was not a meeting note!
