@@ -34,7 +34,7 @@ work in progress, the site is missing tests [solution (Llama 3.2 1B)](https://gi
 
 [11 - Extracting Action Items from Meeting Notes](https://lunaprompts.com/challenges/11)
 
-50% pass rate, [solution (Llama 3.2 1B)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/11_Extracting_Action_Items_from_Meeting_Notes-llama-3.2-1b.md)
+66.6% pass rate, [solution (Llama 3.2 1B)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/11_Extracting_Action_Items_from_Meeting_Notes-llama-3.2-1b.md)
 
 [13 - [Single Shot] Rewrite Rental Messages for Better Tone](https://lunaprompts.com/challenges/13)
 

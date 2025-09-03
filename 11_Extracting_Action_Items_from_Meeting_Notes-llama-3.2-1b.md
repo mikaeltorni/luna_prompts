@@ -1,6 +1,6 @@
 Your task is to write a prompt that accurately extracts action items from meeting notes and structures them in a valid JSON format.
 
-expected output format:
+<expected_output_format>
 [
   {
     "task": "Next task",
@@ -18,9 +18,12 @@ expected output format:
     "due_date": "Next Wednesday"
   }
 ]
+</expected_output_format>
 
-error handling:
+<error_handling>
 return: {"error": "Invalid Input"}
+</error_handling>
 
-Here's the meeting notes:
+<meeting_notes>
 {{meeting_notes}}
+</meeting_notes>
