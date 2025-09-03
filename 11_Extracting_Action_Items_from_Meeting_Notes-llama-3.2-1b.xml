@@ -1,0 +1,40 @@
+Your task is to write a prompt that accurately extracts action items from meeting notes and structures them in a valid JSON format. 
+
+<expected_output_format_example>
+[
+  {
+    "task": "Next task",
+    "assignee": "Assigned Person",
+    "due_date": "Due date"
+  },
+  {
+    "task": "Schedule a follow-up call with the client",
+    "assignee": "Sarah",
+    "due_date": "N/A"
+  },
+  {
+    "task": "Review the new UX designs and share feedback",
+    "assignee": "Mark",
+    "due_date": "Next Wednesday"
+  }
+]
+Do NOT use the data in this example for your real answers, just utilize the format listed above.
+</expected_output_format_example>
+
+<error_handling>
+If the text isn't anything related to meetings, return:
+{"error": "Invalid Input"} strictly.
+
+example:
+{
+  "meeting_notes": "This is not a meeting note."
+}
+</error_handling>
+
+<restrictions>
+Do not produce any code, just give out the JSON format, nothing else.
+</restrictions>
+
+<meeting_notes>
+{{meeting_notes}}
+</meeting_notes>
