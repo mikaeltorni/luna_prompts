@@ -1,4 +1,5 @@
-Your task is to write a prompt that accurately extracts action items from meeting notes and structures them in a valid JSON format. Be sure to follow the examples strictly to know when to print the error message.
+Your task is to accurately extract action items from these meeting notes and structure them in to a valid JSON format
+Be sure to follow the examples strictly to know when to print the error message.
 
 <expected_output_format_example>
 [
