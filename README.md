@@ -24,6 +24,10 @@ Don't copy them directly, that's the whole point of the platform ;)
 
 50% pass rate, [solution (Llama 3.2 1B)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/6_Tweet_Tone_Detector/6_Tweet_Tone_Detector-llama-3.2-1b.xml)
 
+[7 - Generate SQL Queries for Sports Tournament Analysis](https://lunaprompts.com/challenges/7)
+
+100% pass rate, [solution (Kimi K2)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/7_Generate_SQL_Queries_for_Sports_Tournament_Analysis-kimi-k2.md)
+
 [9 - [Hyperparameter Tuning] Detecting Hate Speech in Social Media Posts](https://lunaprompts.com/challenges/9)
 
 100% pass rate, [solution (GPT-4o)](https://github.com/mikaeltorni/luna_prompts_solutions/blob/master/9_Hyperparameter_Tuning-Detecting_Hate_Speech_in_Social_Media_Posts-GPT-4o.md)
